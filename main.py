@@ -1,10 +1,10 @@
 import os
 
-from chat import ask_llm
+from tools.chat import ask_llm
 from config import MD_DIR, BUILD_DB
-from chunking import extract_chunks_from_md
-from embedding import build_vector_db
-from search import search_chunks
+from tools.chunking import extract_chunks_from_md
+from tools.embedding import build_vector_db
+from tools.search import search_chunks
 
 
 # -----------------------

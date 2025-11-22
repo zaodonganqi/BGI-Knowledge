@@ -1,9 +1,9 @@
 import os
 
 # Markdown 文件目录
-MD_DIR = "./knowledge_resources"
+MD_DIR = "knowledge_resources"
 # Chroma 本地库
-DB_DIR = "./knowledge_result"
+DB_DIR = "knowledge_result"
 COLLECTION_NAME = "md_knowledge"
 
 # Chunk 配置
