@@ -57,4 +57,4 @@ OLLAMA_URL = "http://localhost:11434"  # 本地 Ollama 服务地址
 OLLAMA_MODEL = "gemma3:12b"  # 本地模型
 
 # 是否构建向量库，直接启动
-BUILD_DB = True
+BUILD_DB = False

@@ -1,7 +1,7 @@
 import os
 
 from tools.chat import ask_llm
-from config import MD_DIR, BUILD_DB
+from config import MD_DIR, BUILD_DB, OLLAMA_MODEL
 from tools.chunking import extract_chunks_from_md
 from tools.embedding import build_vector_db
 from tools.search import search_chunks
@@ -47,5 +47,5 @@ if __name__ == "__main__":
 
     finally:
         # 确保 Ollama 服务在退出时被关闭
-        os.system("ollama stop gemma3:12b")
+        os.system(f"ollama stop {OLLAMA_MODEL}")
         print("\033[33mOllama 服务已关闭。\033[0m")
