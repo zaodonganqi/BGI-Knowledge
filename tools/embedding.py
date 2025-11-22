@@ -1,12 +1,12 @@
 from sentence_transformers import SentenceTransformer
 import chromadb
-from config import DB_DIR, COLLECTION_NAME, BUILD_DB
+from config import DB_DIR, COLLECTION_NAME, BUILD_DB, EMBEDDING_MODEL
 import os
 import json
 import shutil
 
 print("Loading embedding model...")
-model = SentenceTransformer("BAAI/bge-m3")
+model = SentenceTransformer(EMBEDDING_MODEL)
 
 # -----------------------
 # 初始化 Chroma

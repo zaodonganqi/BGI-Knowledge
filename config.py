@@ -6,6 +6,9 @@ MD_DIR = "knowledge_resources"
 DB_DIR = "knowledge_result"
 COLLECTION_NAME = "md_knowledge"
 
+# embedding模型
+EMBEDDING_MODEL = "BAAI/bge-m3"
+
 # Chunk 配置
 CHUNK_SIZE = 400
 CHUNK_OVERLAP = 50

@@ -1,4 +1,4 @@
-from embedding import model, collection
+from tools.embedding import model, collection
 from config import TOP_K
 
 from pathlib import Path
