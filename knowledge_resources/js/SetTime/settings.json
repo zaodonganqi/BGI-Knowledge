@@ -1,7 +1,0 @@
-[
-    {
-        "name": "time",
-        "type": "input-text",
-        "label": "输入时间 [0-24] "
-    }
-]
